@@ -1,0 +1,55 @@
+/* Homepage.css */
+
+.homepage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: plum;
+  width:100vh;
+  min-width: 100vw;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
+  background-color: purple;
+  border-radius: 12px;
+  
+
+  box-shadow: 0 6px 16px plum;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: plum;
+}
+
+.content p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: plum;
+}
+
+.content button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.content button:hover {
+  background-color: green;
+}
